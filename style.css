@@ -1,0 +1,55 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+}
+
+.navbar-logo {
+    width: 45px;
+    height: 45px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.home-logo {
+    max-width: 320px;
+    border-radius: 10px;
+}
+
+
+.student-picture {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.student-search-form {
+    width: 550px;
+}
+
+.student-search-form .form-control,
+.student-search-form .btn {
+    height: 42px;
+}
+
+.student-search-form .form-control {
+    flex: 1;
+}
+
+.student-search-form .btn {
+    width: 80px;
+}
+
+.add-student-card {
+    max-width: 700px;
+    margin: auto;
+}
+
+footer {
+    margin-top: auto;
+}
